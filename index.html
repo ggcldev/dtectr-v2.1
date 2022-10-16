@@ -527,7 +527,7 @@
 
 			<section>
 				<div class="container mx-auto">
-					<div class="flex">
+					<div class="flex flex-col md:flex-row">
 						<div class="w-1/2 space-y-6 pt-6">
 							<div>
 								<h2
@@ -575,22 +575,49 @@
 								</li>
 								<li class="nav-item" role="presentation">
 									<a
-										href="#tabs-messagesVertical"
+										href="#tabs-nav-3"
 										class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-l-2 border-transparent px-8 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-										id="tabs-messages-tabVertical"
+										id="tabs-three-tabVertical"
 										data-bs-toggle="pill"
-										data-bs-target="#tabs-messagesVertical"
+										data-bs-target="#tabs-nav-3"
 										role="tab"
-										aria-controls="tabs-messagesVertical"
+										aria-controls="tabs-nav-3"
 										aria-selected="false"
 										>Live video streaming</a
+									>
+								</li>
+								<li class="nav-item" role="presentation">
+									<a
+										href="#tabs-nav-4"
+										class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-l-2 border-transparent px-8 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+										id="tabs-four-tabVertical"
+										data-bs-toggle="pill"
+										data-bs-target="#tabs-nav-4"
+										role="tab"
+										aria-controls="tabs-nav-4"
+										aria-selected="false"
+										>Shared access</a
+									>
+								</li>
+								<li class="nav-item" role="presentation">
+									<a
+										href="#tabs-nav-5"
+										class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-l-2 border-transparent px-8 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+										id="tabs-five-tabVertical"
+										data-bs-toggle="pill"
+										data-bs-target="#tabs-nav-5"
+										role="tab"
+										aria-controls="tabs-nav-5"
+										aria-selected="false"
+										>Connected devices</a
 									>
 								</li>
 							</ul>
 						</div>
 
 						<!-- Sidetab content -->
-						<div class="w-1/2 pt-6">
+						<div class="flex justify-center w-full pt-6">
+							<!-- Tab 1 -->
 							<div
 								class="tab-content"
 								id="tabs-tabContentVertical">
@@ -599,7 +626,7 @@
 									id="tabs-nav-1"
 									role="tabpanel"
 									aria-labelledby="tabs-one-tabVertical">
-									<div class="container flex justify-center">
+									<div class="container">
 										<h1>One</h1>
 										<img
 											src="img/mobile-feature/iphone-mockup.png"
@@ -607,12 +634,13 @@
 											alt="" />
 									</div>
 								</div>
+								<!-- Tab 2 -->
 								<div
 									class="tab-pane fade"
 									id="tabs-navs-2"
 									role="tabpanel"
 									aria-labelledby="tabs-two-tabVertical">
-									<div class="container flex justify-center">
+									<div class="container">
 										<h1>Two</h1>
 										<img
 											src="img/mobile-feature/iphone-mockup.png"
@@ -620,13 +648,42 @@
 											alt="" />
 									</div>
 								</div>
+								<!-- Tab 3 -->
 								<div
 									class="tab-pane fade"
-									id="tabs-messagesVertical"
+									id="tabs-nav-3"
 									role="tabpanel"
-									aria-labelledby="tabs-profile-tabVertical">
-									<div class="container flex justify-center">
+									aria-labelledby="tabs-three-tabVertical">
+									<div class="container">
 										<h3>Three</h3>
+										<img
+											src="img/mobile-feature/iphone-mockup.png"
+											class="max-w-xs object-contain"
+											alt="" />
+									</div>
+								</div>
+								<!-- Tab 4 -->
+								<div
+									class="tab-pane fade"
+									id="tabs-nav-4"
+									role="tabpanel"
+									aria-labelledby="tabs-four-tabVertical">
+									<div class="container">
+										<h3>Four</h3>
+										<img
+											src="img/mobile-feature/iphone-mockup.png"
+											class="max-w-xs object-contain"
+											alt="" />
+									</div>
+								</div>
+								<!-- Tab 5 -->
+								<div
+									class="tab-pane fade"
+									id="tabs-nav-5"
+									role="tabpanel"
+									aria-labelledby="tabs-five-tabVertical">
+									<div class="container">
+										<h3>Five</h3>
 										<img
 											src="img/mobile-feature/iphone-mockup.png"
 											class="max-w-xs object-contain"
