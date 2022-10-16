@@ -26,7 +26,7 @@
 	<body class="bg-greyLight">
 		<!-- Navigation bar -->
 		<!-- -------------- -->
-		<header id="header">
+		<header>
 			<!-- Container for navbar -->
 			<nav
 				class="fixed top-0 left-0 mx-auto w-full shadow bg-greyLight z-40">
@@ -121,7 +121,7 @@
 			</nav>
 		</header>
 
-        <main>
+		<main>
 			<!-- Hero section -->
 			<section
 				id="hero-section"
@@ -170,7 +170,7 @@
 					</div>
 				</div>
 			</section>
-            <!-- Hero CTA -->
+
 			<section id="hero-cta" class="mt-10">
 				<div
 					class="container mx-auto hidden md:flex justify-between items-center font-sans">
@@ -195,8 +195,8 @@
 					</div>
 				</div>
 			</section>
-            <!-- About us -->
-            <section id="about-section" class="mt-10">
+
+			<section id="about-section" class="mt-10">
 				<div class="md:container-md lg:container mx-auto px-8">
 					<!-- Section Header -->
 					<div>
@@ -246,8 +246,8 @@
 					</div>
 				</div>
 			</section>
-            <!-- Features section -->
-            <section id="features-section">
+
+			<section id="features-section">
 				<div class="md:container-md lg:container mx-auto">
 					<!-- Section header -->
 					<div class="mb-10">
@@ -262,7 +262,7 @@
 						class="grid justify-center md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-6 md:px-6 lg:px-0">
 						<div class="feature-container">
 							<img
-								src="../dist/img/product-features/feature-02.svg"
+								src="img/product-features/feature-02.svg"
 								alt=""
 								class="max-h-20" />
 							<h3
@@ -280,7 +280,7 @@
 
 						<div class="feature-container">
 							<img
-								src="../dist/img/product-features/feature-01.svg"
+								src="img/product-features/feature-01.svg"
 								alt=""
 								class="max-h-20 flex" />
 							<h3
@@ -298,7 +298,7 @@
 
 						<div class="feature-container">
 							<img
-								src="../dist/img/product-features/feature-03.svg"
+								src="img/product-features/feature-03.svg"
 								alt=""
 								class="max-h-20" />
 							<h3
@@ -316,7 +316,7 @@
 
 						<div class="feature-container">
 							<img
-								src="../dist/img/product-features/feature-04.svg"
+								src="img/product-features/feature-04.svg"
 								alt=""
 								class="max-h-20" />
 							<h3
@@ -336,10 +336,162 @@
 				</div>
 				<!-- end of feature container -->
 			</section>
+
+			<section id="products-section">
+				<div class="container mx-auto">
+					<!-- Tab Navigation -->
+					<ul
+						class="nav nav-tabs flex flex-col justify-center md:flex-row list-none border-b-0 pl-0 mb-4"
+						id="tabs-tab"
+						role="tablist">
+						<li class="nav-item" role="presentation">
+							<a
+								href="#tabs-home"
+								class="nav-link block font-semibold text-lg leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active"
+								id="tabs-home-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#tabs-home"
+								role="tab"
+								aria-controls="tabs-home"
+								aria-selected="true"
+								>Indoor</a
+							>
+						</li>
+
+						<li class="nav-item" role="presentation">
+							<a
+								href="#tabs-profile"
+								class="nav-link block font-semibold text-lg leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+								id="tabs-profile-tab"
+								data-bs-toggle="pill"
+								data-bs-target="#tabs-profile"
+								role="tab"
+								aria-controls="tabs-profile"
+								aria-selected="false"
+								>Outdoor</a
+							>
+						</li>
+					</ul>
+					<!-- Tab Content -->
+					<div class="tab-content" id="tabs-tabContent">
+						<!-- Tab 1 -->
+						<div
+							class="tab-pane fade show active"
+							id="tabs-home"
+							role="tabpanel"
+							aria-labelledby="tabs-home-tab">
+							<div>
+								<h2
+									class="pl-8 text-4xl font-bold font-serif max-w-sm text-primaryTextColor">
+									Delivering security Defining Security
+								</h2>
+							</div>
+							<div
+								class="grid md:grid-cols-[10%_45%_45%] lg:grid-cols-[10%_45%_45%] xl:grid-cols-[20%_40%_40%] sm:space-y-6 xs:space-y-6 md:space-y-0 lg:space-y-0 mt-8 px-8">
+								<h3
+									class="text-xs sm:text-sm font-semibold uppercase text-secondaryColor">
+									Model - 001
+								</h3>
+
+								<p class="section-p">
+									Our company was founded with a vision: to
+									reimagine the meaning of privacy and
+									security in our communities’ lives. Our goal
+									is to create security camera systems that
+									are adaptable, intelligent and dependable.
+									We harness the power of AI and the cloud to
+									accomplish this.
+								</p>
+
+								<p class="section-p">
+									We believe in perfecting our line one
+									offering at a time because we take your
+									privacy and security seriously. This allows
+									us to guarantee the best product, service
+									and customer support without compromising
+									your experience. Your home security and data
+									privacy should be the least of your worries.
+									Let Dtectr handle it.
+								</p>
+							</div>
+
+							<div class="container flex justify-end mt-8">
+								<div
+									class="flex justify-end flex-1 max-w-5xl border-2 lg:mr-16">
+									<img
+										src="/img/product-img-1.png"
+										alt=""
+										class="object-obtain max-h-96" />
+								</div>
+							</div>
+
+							<div class="container mx-auto flex justify-end">
+								<button>View More</button>
+							</div>
+						</div>
+						<!-- Tab 2 -->
+						<div
+							class="tab-pane fade"
+							id="tabs-profile"
+							role="tabpanel"
+							aria-labelledby="tabs-profile-tab">
+							<div>
+								<h2
+									class="pl-8 text-4xl font-bold font-serif max-w-sm text-primaryTextColor">
+									Delivering security Defining Security
+								</h2>
+							</div>
+							<div
+								class="grid md:grid-cols-[10%_45%_45%] lg:grid-cols-[10%_45%_45%] xl:grid-cols-[20%_40%_40%] sm:space-y-6 xs:space-y-6 md:space-y-0 lg:space-y-0 mt-8 px-8">
+								<h3
+									class="text-xs sm:text-sm font-semibold uppercase text-secondaryColor">
+									Model - 002
+								</h3>
+
+								<p class="section-p">
+									Our company was founded with a vision: to
+									reimagine the meaning of privacy and
+									security in our communities’ lives. Our goal
+									is to create security camera systems that
+									are adaptable, intelligent and dependable.
+									We harness the power of AI and the cloud to
+									accomplish this.
+								</p>
+
+								<p class="section-p">
+									We believe in perfecting our line one
+									offering at a time because we take your
+									privacy and security seriously. This allows
+									us to guarantee the best product, service
+									and customer support without compromising
+									your experience. Your home security and data
+									privacy should be the least of your worries.
+									Let Dtectr handle it.
+								</p>
+							</div>
+							<div class="container flex justify-end mt-8">
+								<div
+									class="flex justify-end flex-1 max-w-5xl border-2 lg:mr-16">
+									<img
+										src="img/product-img-2.png"
+										alt=""
+										class="object-obtain max-h-96" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End of tab content -->
+				</div>
+				<!-- End of container -->
+			</section>
+
+			<section></section>
+		</main>
+
 		<script src="js/script.js"></script>
 		<script src="js/screen-width-checker.js"></script>
-        <!-- Icons -->
-        <script
+		<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+		<script
 			type="module"
 			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 		<script

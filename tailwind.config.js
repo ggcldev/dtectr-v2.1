@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./*.html'],
+	content: ['./*.html', './node_modules/tw-elements/dist/js/**/*.js'],
 	theme: {
 		screens: {
 			xs: { max: '479px' },
@@ -32,5 +32,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [],
+	plugins: [require('tw-elements/dist/plugin')],
 }
