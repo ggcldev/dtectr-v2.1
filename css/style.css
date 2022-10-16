@@ -4550,6 +4550,14 @@ textarea.form-control.is-invalid {
     padding-right: 2rem;
   }
 
+  .xs\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .xs\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
   .xs\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -4599,6 +4607,10 @@ textarea.form-control.is-invalid {
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .sm\:pr-4 {
+    padding-right: 1rem;
   }
 
   .sm\:text-5\.5xl {
@@ -4662,6 +4674,10 @@ textarea.form-control.is-invalid {
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .md\:pr-0 {
+    padding-right: 0px;
   }
 
   .md\:text-3xl {
