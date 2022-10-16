@@ -4164,6 +4164,10 @@ textarea.form-control.is-invalid {
   border-left-width: 2px;
 }
 
+.border-l-4 {
+  border-left-width: 4px;
+}
+
 .border-transparent {
   border-color: transparent;
 }
