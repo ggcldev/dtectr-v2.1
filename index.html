@@ -527,82 +527,120 @@
 
 			<section>
 				<div class="container mx-auto">
-					<div class="flex items-start">
-						<ul
-							class="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 mr-4"
-							id="tabs-tabVertical"
-							role="tablist">
-							<li
-								class="nav-item flex-grow text-center"
-								role="presentation">
-								<a
-									href="#tabs-homeVertical"
-									class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active"
-									id="tabs-home-tabVertical"
-									data-bs-toggle="pill"
-									data-bs-target="#tabs-homeVertical"
-									role="tab"
-									aria-controls="tabs-homeVertical"
-									aria-selected="true"
-									>Home</a
-								>
-							</li>
-							<li
-								class="nav-item flex-grow text-center"
-								role="presentation">
-								<a
-									href="#tabs-profileVertical"
-									class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-									id="tabs-profile-tabVertical"
-									data-bs-toggle="pill"
-									data-bs-target="#tabs-profileVertical"
-									role="tab"
-									aria-controls="tabs-profileVertical"
-									aria-selected="false"
-									>Profile</a
-								>
-							</li>
-							<li
-								class="nav-item flex-grow text-center"
-								role="presentation">
-								<a
-									href="#tabs-messagesVertical"
-									class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
-									id="tabs-messages-tabVertical"
-									data-bs-toggle="pill"
-									data-bs-target="#tabs-messagesVertical"
-									role="tab"
-									aria-controls="tabs-messagesVertical"
-									aria-selected="false"
-									>Messages</a
-								>
-							</li>
-						</ul>
-						<div class="tab-content" id="tabs-tabContentVertical">
-							<div
-								class="tab-pane fade show active"
-								id="tabs-homeVertical"
-								role="tabpanel"
-								aria-labelledby="tabs-home-tabVertical">
-								Tab 1 content vertical
+					<div class="flex">
+						<div class="w-1/2 space-y-6 pt-6">
+							<div>
+								<h2
+									class="text-4xl font-bold font-serif pl-8 max-w-xs text-primaryTextColor">
+									Complete control Using your app
+								</h2>
 							</div>
-							<div
-								class="tab-pane fade"
-								id="tabs-profileVertical"
-								role="tabpanel"
-								aria-labelledby="tabs-profile-tabVertical">
-								Tab 2 content vertical
+							<div>
+								<p class="section-p pl-8">
+									Receive real-time notifications on your
+									phone and tablet wheter you're on the couch,
+									at the gym or in the office.
+								</p>
 							</div>
-							<div
-								class="tab-pane fade"
-								id="tabs-messagesVertical"
-								role="tabpanel"
-								aria-labelledby="tabs-profile-tabVertical">
-								Tab 3 content vertical
-							</div>
+							<!-- Side tabs navigation -->
+							<ul
+								class="nav nav-tabs flex flex-col flex-wrap list-none border-b-0 pl-0 mr-4"
+								id="tabs-tabVertical"
+								role="tablist">
+								<li class="nav-item" role="presentation">
+									<a
+										href="#tabs-nav-1"
+										class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-l-2 border-transparent px-8 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active"
+										id="tabs-one-tabVertical"
+										data-bs-toggle="pill"
+										data-bs-target="#tabs-nav-1"
+										role="tab"
+										aria-controls="tabs-nav-1"
+										aria-selected="true"
+										>Easy Control</a
+									>
+								</li>
+								<li class="nav-item" role="presentation">
+									<a
+										href="#tabs-navs-2"
+										class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-l-2 border-transparent px-8 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+										id="tabs-two-tabVertical"
+										data-bs-toggle="pill"
+										data-bs-target="#tabs-navs-2"
+										role="tab"
+										aria-controls="tabs-navs-2"
+										aria-selected="false"
+										>Real-time notifications</a
+									>
+								</li>
+								<li class="nav-item" role="presentation">
+									<a
+										href="#tabs-messagesVertical"
+										class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-l-2 border-transparent px-8 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+										id="tabs-messages-tabVertical"
+										data-bs-toggle="pill"
+										data-bs-target="#tabs-messagesVertical"
+										role="tab"
+										aria-controls="tabs-messagesVertical"
+										aria-selected="false"
+										>Live video streaming</a
+									>
+								</li>
+							</ul>
 						</div>
+
+						<!-- Sidetab content -->
+						<div class="w-1/2 pt-6">
+							<div
+								class="tab-content"
+								id="tabs-tabContentVertical">
+								<div
+									class="tab-pane fade show active"
+									id="tabs-nav-1"
+									role="tabpanel"
+									aria-labelledby="tabs-one-tabVertical">
+									<div class="container flex justify-center">
+										<h1>One</h1>
+										<img
+											src="img/mobile-feature/iphone-mockup.png"
+											class="max-w-xs object-contain"
+											alt="" />
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="tabs-navs-2"
+									role="tabpanel"
+									aria-labelledby="tabs-two-tabVertical">
+									<div class="container flex justify-center">
+										<h1>Two</h1>
+										<img
+											src="img/mobile-feature/iphone-mockup.png"
+											class="max-w-xs object-contain"
+											alt="" />
+									</div>
+								</div>
+								<div
+									class="tab-pane fade"
+									id="tabs-messagesVertical"
+									role="tabpanel"
+									aria-labelledby="tabs-profile-tabVertical">
+									<div class="container flex justify-center">
+										<h3>Three</h3>
+										<img
+											src="img/mobile-feature/iphone-mockup.png"
+											class="max-w-xs object-contain"
+											alt="" />
+									</div>
+								</div>
+							</div>
+							<!-- End of tab content -->
+						</div>
+						<!-- End of tab container -->
 					</div>
+					<!-- End of content container -->
 				</div>
+				<!-- End of container -->
 			</section>
 		</main>
 
