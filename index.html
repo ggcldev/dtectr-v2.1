@@ -75,12 +75,21 @@
 						</div>
 
 						<!-- Login button -->
-						<button
-							class="uppercase font-sans text-primaryTextColor">
-							<ion-icon
-								name="person-sharp"
-								class="text-2xl mt-2 fill-primaryTextColor"></ion-icon>
-						</button>
+						<div class="flex items-center space-x-4">
+							<button class="text-primaryTextColor">
+								<ion-icon
+									name="person-sharp"
+									class="text-xl mt-2 fill-primaryTextColor"></ion-icon>
+							</button>
+
+							<button class="snipcart-checkout flex items-center">
+								<ion-icon
+									name="cart-sharp"
+									class="text-2xl"></ion-icon>
+								<span
+									class="snipcart-items-count text-xs -mt-5 -ml-1 font-bold text-secondaryColor"></span>
+							</button>
+						</div>
 
 						<!-- Hamburger button -->
 						<button
@@ -444,7 +453,7 @@
 									<button
 										class="uppercase text-md font-serif font-bold">
 										<a
-											href="#"
+											href="cart.html"
 											class="hover:text-secondaryColor"
 											>View More</a
 										>
@@ -511,7 +520,7 @@
 									<button
 										class="uppercase text-md font-serif font-bold">
 										<a
-											href="#"
+											href="cart.html"
 											class="hover:text-secondaryColor"
 											>View More</a
 										>
@@ -1187,6 +1196,7 @@
 		</footer>
 		<script src="js/script.js"></script>
 		<script src="js/screen-width-checker.js"></script>
+		<script src="js/cart.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 		<script
 			type="module"
